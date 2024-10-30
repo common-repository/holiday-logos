@@ -1,0 +1,79 @@
+.hide-fla td, th { text-align: left; vertical-align: top; }
+.hdlogo textarea { width: 350px; }
+.hdlogo .hdlheightsize1 { width: 20px; }
+.wp-core-ui .button-group.button-hero .button, .wp-core-ui .inside .hdl-btn {  font-size: 14px; height: 30px; line-height: 26px; padding-bottom: 0; padding-left: 15px; padding-right: 15px; padding-top: 0; }
+.hdl_table { background-color: #ffffff; }
+
+h1 span.support-btn:before {
+    padding-right: 10px;
+    color: #fff;
+}
+h1 span.support-btn, h1 span.export-btn {
+    float: right;
+    display: block;
+    width: 126px;
+    height: 38px;
+    background: #0068AA;
+    padding: 2px 0 0;
+    box-sizing: border-box;
+    color: #d2d2d2;
+    font-size: 20px;
+    text-shadow: 1px 1px #000;
+    border: 0;
+    border-radius: 4px;
+}
+h1 span.export-btn  {
+	width:80px;
+	height:32px;
+	font-size:12px;
+    margin:6px 0 0 10px;
+    padding-left: 10px;
+    background: #068210;
+}
+h1 span.support-btn a, h1 span.export-btn a {
+    text-decoration: none;
+    color:#d2d2d2;
+}
+h1 span.support-btn a:hover {
+    color:#ffba00;
+}
+h1 span.export-btn a:hover {
+	color: #444;
+}
+th.column-hdlstartdate {
+    width: 10%;
+}
+.hdl-report_hidden {
+    display: none;
+}
+.hdl-report-th {
+    background: #b8c3c8;
+}
+.hdl-report-th th {
+    padding-left:10px;
+}
+.hgl-report-tr {
+    border-bottom:1px dotted #84adb6;
+}
+
+#endday span, #extbefore span, #extafter span {
+    display: block;
+    padding: 7px 7px 8px 10px;
+}
+
+.error {
+	color: #ee1111;
+}
+
+@media screen and (max-width: 782px) {
+    .hdl-report_hidden {
+        display: inline-block;
+        width:104px;
+    }
+    .hdl-report-th {
+        display:none;
+    }
+    tr.hdl-report-title {
+        height: 86px;
+    }
+}
